@@ -1,0 +1,15 @@
+---
+
+---
+
+<footer class="text-center mt-auto py-4 bg-transparent">
+    <div class="container mx-auto">
+        <small class="text-gray-600">Copyrigt &copy; <span id="copyright"></span> | All rights reserved</small>
+    </div>
+</footer>
+
+<script>
+    document.querySelector('#copyright').textContent = new Date()
+        .getFullYear()
+        .toString();
+</script>
